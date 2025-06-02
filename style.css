@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'Amiri Quran';
-    src: url('https://cdn.jsdelivr.net/gh/aliftype/amiri@latest/AmiriQuran-Regular.ttf') format('truetype');
+    src: url('./fonts/AmiriQuran-Regular.ttf') format('truetype');
 }
 
 body {
@@ -12,7 +12,6 @@ body {
     unicode-bidi: embed;
 }
 
-p {
+p, h1, h2, h3 {
     font-family: 'Amiri Quran', 'Tajawal', sans-serif;
-    line-height: 1.8;
 }
