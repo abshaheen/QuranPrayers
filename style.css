@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: 'Amiri Quran';
+    src: url('https://cdn.jsdelivr.net/gh/aliftype/amiri@latest/AmiriQuran-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Amiri Quran', 'Tajawal', sans-serif;
+    background-color: #FDFBF7;
+    font-feature-settings: "calt", "liga";
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+p {
+    font-family: 'Amiri Quran', 'Tajawal', sans-serif;
+    line-height: 1.8;
+}
